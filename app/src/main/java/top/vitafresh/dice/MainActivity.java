@@ -7,12 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Log.d("Dice","On create!");
 
         Button btn_roll;
@@ -26,8 +29,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("Dice","The btn has been pressed");
+
+                Random rndGenerator = new Random();
+                int numDiceOne = rndGenerator.nextInt(6);
+                Log.d("Dice","Rnd = " + (numDiceOne + 1));
             }
         });
+
+
+
 
 
     }
