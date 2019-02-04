@@ -11,6 +11,36 @@
     tools:layout_editor_absoluteY="25dp">
 
 
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dicee_logo"/>
+
+    <ImageView
+        android:id="@+id/img_leftDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_rightDice"
+        app:srcCompat="@drawable/dice2" />
+
+    <ImageView
+        android:id="@+id/img_rightDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_leftDice"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice1" />
+
     <Button
         android:id="@+id/btn_roll"
         android:layout_width="0dp"
@@ -29,28 +59,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/img_rightDice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dice1"
-        tools:layout_editor_absoluteX="256dp" />
-
-    <ImageView
-        android:id="@+id/img_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dicee_logo"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-
-    <ImageView
-        android:id="@+id/img_leftDice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/dice2" />
 
 
 </android.support.constraint.ConstraintLayout>
