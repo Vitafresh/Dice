@@ -2,4 +2,9 @@
     <string name="app_name">Dice</string>
     <string name="roll_button_text">Roll</string>
     <string name="description_roll_button">Rolls the dice</string>
+    <string name="dice_logo">Dice Logo</string>
+    <string name="left_dice">Left Dice</string>
+    <string name="right_dice">Right Dice</string>
+
+
 </resources>

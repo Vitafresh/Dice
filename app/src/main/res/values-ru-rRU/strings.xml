@@ -3,4 +3,9 @@
     <string name="app_name">Кости</string>
     <string name="roll_button_text">Кинуть</string>
     <string name="description_roll_button">Кинуть кости</string>
+    <string name="dice_logo">Логотип</string>
+    <string name="left_dice">Левый кубик</string>
+    <string name="right_dice">Правый кубик</string>
+
+
 </resources>
