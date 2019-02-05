@@ -21,7 +21,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline_right_logo"
         app:layout_constraintStart_toStartOf="@+id/guideline_left_logo"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dicee_logo" />
+        app:srcCompat="@drawable/dicee_logo_vlad2" />
 
     <ImageView
         android:id="@+id/img_leftDice"
@@ -32,7 +32,7 @@
         app:layout_constraintEnd_toStartOf="@id/img_rightDice"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice2" />
+        app:srcCompat="@drawable/dice6" />
 
     <ImageView
         android:id="@+id/img_rightDice"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/img_leftDice"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dice1" />
+        app:srcCompat="@drawable/dice6" />
 
     <Button
         android:id="@+id/btn_roll"

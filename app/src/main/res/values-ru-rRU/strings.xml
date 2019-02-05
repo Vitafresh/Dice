@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кости</string>
+    <string name="roll_button_text">Кинуть</string>
+    <string name="description_roll_button">Кинуть кости</string>
+</resources>
